@@ -1,0 +1,24 @@
+{
+    "name": "Ad Shield",
+    "version": "1.0.0", 
+    "description": "A simple and lightweight extension that blocks annoying ads on websites, enhancing your browsing experience by removing unwanted content.",
+    "manifest_version": 3,
+    "permissions": [
+        "declarativeNetRequest",
+        "declarativeContent"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    },
+    "icons": {
+        "128": "Logo.png",
+        "48": "Logo.png",
+        "16": "Logo.png"
+    }
+}
