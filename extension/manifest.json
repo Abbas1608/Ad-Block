@@ -4,9 +4,23 @@
     "description": "A simple and lightweight extension that blocks annoying ads on websites, enhancing your browsing experience by removing unwanted content.",
     "manifest_version": 3,
     "permissions": [
-        "declarativeNetRequest",
-        "declarativeContent"
+      "declarativeNetRequest",
+      "declarativeNetRequestWithHostAccess",
+      "activeTab",
+      "storage"
     ],
+
+    "host_permissions": [
+        "<all_urls>"
+      ],
+  
+      "background": {
+      "service_worker": "background.js"  
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+
     "declarative_net_request": {
         "rule_resources": [
             {
