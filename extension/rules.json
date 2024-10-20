@@ -18,5 +18,29 @@
         "condition": {
             "urlFilter": "*://*googleadservices.com/*"
         }
-    }
+    },
+    {
+        "id": 3,
+        "priority": 1,
+        "action": {
+          "type": "block"
+        },
+        "condition": {
+          "urlFilter": "popup",
+          "resourceTypes": ["sub_frame", "script"]
+        }
+      },
+      {
+        "id": 4,
+        "priority": 1,
+        "action": {
+          "type": "block"
+        },
+        "condition": {
+          "urlFilter": "ads",
+          "resourceTypes": ["sub_frame", "script"]
+        }
+      }
+  
+  
 ]
