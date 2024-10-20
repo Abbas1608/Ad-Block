@@ -9,3 +9,8 @@ signUpBtnLink.addEventListener('click', () => {
 signInBtnLink.addEventListener('click', () => {
     wrapper.classList.toggle('active');
 });
+
+function redirectToFile() {
+    // Redirect to a specific file
+    window.location.href = '/index.html'; // Replace with your actual file path
+}
