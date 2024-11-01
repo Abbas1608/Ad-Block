@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <title>AD SHIELD</title>
 </head>
 <body>
@@ -15,11 +16,8 @@
 <header class="header"> 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <img src="./Assets/Logo.png" class="navbar-logo">
-        <a class="navbar-brand" href="#">AD Shield</a> 
-        
-         <!-- <video src="./Assets/ad logo.mp4" class="navbar-logo" autoplay loop>The video tag is not supported by this browser</video>
-          <a class="navbar-brand" href="#">AD Shield</a>  -->
+          <img src="./Assets/Logo.png" class="navbar-logo">
+          <a class="navbar-brand" href="#">AD Shield</a>
     
           <!-- Toggle Button -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,8 +33,7 @@
                 <a class="nav-link active" href="#">FAQs</a>
               </li>
               <li class="nav-item">
-                 <!--  Calling login screen -->
-               <a class="nav-link active" href="./loginpage/index.html">Login</a>  
+                <a class="nav-link active" href="./loginpage/index.html">Login</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="#">Contact</a>
@@ -73,62 +70,114 @@
     </section>
 
                                 <!-- DOWNLOAD SECTION -->
-    <section class="download-section text-center my-5">
-      <button id="downloadButton" class="btn btn-primary btn-lg text-capitalize"> Download Extension
-      </button>
+    <section class="download-section text-center">
+      <button id="downloadButton" class="btn btn-primary btn-lg text-capitalize"> Download Extension </button>
     </section>
 
-                                <!--  STEPS SECTION   -->
-      <div class="note">Steps to use the extension</div>
-      <div class="wrapper">
-        <div class="box">
-            <input type="radio" name="slide" id="c1" checked>
-            <label for="c1" class="card">
-                <div class="row">
-                    <div class="icon">1</div>
-                    <div class="description">
-                        <h4>Install the extension</h4>
-                        <p>Click on "Download Extension" button and extract the downloaded zip folder.</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="slide" id="c2" >
-            <label for="c2" class="card">
-                <div class="row">
-                    <div class="icon">2</div>
-                    <div class="description">
-                        <h4>Enable Developer Mode</h4>
-                        <p>Visit the "chrome://extensions" path on your chrome and enable the developer mode</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="slide" id="c3" >
-            <label for="c3" class="card">
-                <div class="row">
-                    <div class="icon">3</div>
-                    <div class="description">
-                        <h4>Load Unpacked</h4>
-                        <p>Select the load unpacked option and then select zip folder</p>
-                    </div>
-                </div>
-            </label>
-            <input type="radio" name="slide" id="c4" >
-            <label for="c4" class="card">
-                <div class="row">
-                    <div class="icon">4</div>
-                    <div class="description">
-                        <h4>Enable Extension</h4>
-                        <p>Enable extension from the "chrome://extension" path</p>
-                    </div>
-                </div>
-            </label>
-        </div>
+    <!--  STEPS SECTION   -->
+    <p class="steps">Steps to download the extension</p>
+    <div class="card-list">
+        <a href="#" class="card-item">
+            <img src="./Assets/Step-1.png" alt="Card Image">
+            <span class="step-1">Installing the extension</span>
+            <h3>Click on "Download extension" to install the extension's zip folder and extract it.</h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+        </a>
+        <a href="#" class="card-item">
+            <img src="./Assets/Step-2.png" alt="Card Image">
+            <span class="step-2">Enable Developer Mode</span>
+            <h3>Visit "chrome://extensions" and enable developer mode. Click on "Load unpacked" and select extracted zip folder.</h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+        </a>
+        <a href="#" class="card-item">
+            <img src="./Assets/Step-3.png" alt="Card Image">
+            <span class="step-3">Enabling the extension</span>
+            <h3>Enable the chrome extension in manage extensions tab and now you can have a ad-free experience.</h3>
+            <div class="arrow">
+                <i class="fas fa-arrow-right card-icon"></i>
+            </div>
+        </a>
     </div>
 
 
 
+
+
+
                                      <!-- FOOTER -->
-    
+
+    <footer>
+    <div class="main-content">
+
+        <!-- ABOUT US -->
+        <div class="left box">
+        <h2>About us</h2>
+            <div class="content">
+                <p>Just some college students trying to make something for the miniproject!</p>
+                <div class="social">
+                <a href="http://www.linkedin.com/in/mohammed-abbas-shaikh-432529290" target="_blank"><span class="fab fa-linkedin"></span></a>
+                <a href="#" target="_blank"><span class="fab fa-twitter" ></span></a>
+                <a href="https://www.instagram.com/soham.s_1812/profilecard/?igsh=dno5cXQ5NzR3emE1" target="_blank"><span class="fab fa-instagram"></span></a>
+                <a href="https://github.com/RatishPatil37/AdBlocker" target="_blank"><span class="fab fa-github"></span></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ADDRESS -->
+        <div class="center box">
+        <h2>Address</h2>
+            <div class="content">
+                <div class="place">
+                <span class="fas fa-map-marker-alt"></span>
+                <span class="text">Tulsa Park, Ulhasnagar</span>
+                </div>
+                <div class="phone">
+                <span class="fas fa-phone-alt"></span>
+                <span class="text">+91 9529707672 &nbsp;/ +91 9892359336</span>
+                </div>
+                <div class="email">
+                <span class="fas fa-envelope"></span>
+                <span class="text">patilratish369@gmail.com</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT US -->
+        <div class="right box">
+        <h2>Contact us</h2>
+            <div class="content">
+                <form action="#">
+                <div class="email">
+                    <div class="text">Email *</div>
+                    <textarea rows="2" cols="25" required></textarea>
+                    <!-- <input type="email" required> -->
+                </div>
+                <div class="msg">
+                    <div class="text">Message *</div>
+                    <textarea rows="2" cols="25" required></textarea>
+                </div>
+                <div class="btn">
+                    <button type="submit">Send</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bottom">
+        <center>
+        <span class="credit">Created By <a href="https://www.codingnepalweb.com">Team Immortals</a> | </span>
+        <span class="far fa-copyright"></span><span> 2024 All rights will be reserved soon.</span>
+        </center>
+    </div>
+
+    </footer>
+
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
