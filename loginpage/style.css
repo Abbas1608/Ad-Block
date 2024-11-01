@@ -121,7 +121,9 @@ button {
 }
 button:hover{
   transform: translateY(5%);
-  color: #fff;
+  color: white;
+  background:lightcoral;
+  box-shadow:
 }
 
 .signUp-link {
