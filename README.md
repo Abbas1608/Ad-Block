@@ -1,5 +1,3 @@
-# Ad-Blocker
+<h2> Ad-Blocker as </h2> <h1> "AD SHILD "</h1>
 <br>
-<h2>
-  download all zip file 
-</h2>
+Block 
